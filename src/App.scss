@@ -1,7 +1,20 @@
 @import 'styles/_colors.scss';
 
+/** Fonts **/
+@font-face {
+  font-family: Lato;
+  src: url('/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: Lato-Heavy;
+  src: url('/fonts/Lato-Heavy.ttf');
+  font-weight: bold;
+}
+
 body {
   color: $primary-color;
+  font-family: 'Lato', sans-serif;
   line-height: 1.6em;
 }
 
@@ -9,5 +22,13 @@ body {
   background: none;
 }
 .brand-name {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6em;
+  padding: .5em;
+}
+
+.labzone-footer {
+  background: linear-gradient(135deg, $lab-blue 0%,$lab-orange 100%);
+  color: $light-color;
   padding: .5em;
 }
