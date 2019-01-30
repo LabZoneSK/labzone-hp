@@ -5,7 +5,6 @@ import NavBar from './common/NavBar'
 import Hero from './common/Hero'
 
 import Home from './home'
-import Section from './common/Section';
 
 class App extends Component {
   render () {

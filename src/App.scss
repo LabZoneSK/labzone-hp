@@ -28,7 +28,7 @@ body {
 }
 
 .labzone-footer {
-  background: linear-gradient(135deg, $lab-blue 0%,$lab-orange 100%);
+  background: linear-gradient(to right, $lab-blue 0%, #49A691 30%, #E59E37 90%, $lab-orange 100%);
   color: $light-color;
   padding: .5em;
 }

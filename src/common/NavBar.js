@@ -3,7 +3,7 @@ import React from 'react'
 const NavBar = () => {
   return (
     <nav class='navbar is-fixed-top is-transparent' role='navigation' aria-label='main navigation'>
-      <div className='container'>
+      <div className='container is-fluid'>
         <div class='navbar-brand'>
           <a class='navbar-item' href='https://bulma.io'>
             <img

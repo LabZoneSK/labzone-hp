@@ -1,14 +1,15 @@
 import React from 'react'
 
+import divider from './divider.svg'
+
 import './Section.scss'
 const Section = ({ title, children }) => {
   console.log(children)
   return (
-    <section className='App section'>
-      <div className='container'>
-        <h1 className='section-title'>{title}</h1>
-        {children}
-      </div>
+    <section className='lab-section'>
+      <h1 className='lab-section-title'>{title}</h1>
+      <img src={divider} className='lab-section-divider' />
+      <div className='lab-section-content'>{children}</div>
     </section>
   )
 }
