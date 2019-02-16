@@ -15,11 +15,13 @@
 body {
   color: $primary-color;
   font-family: 'Lato', sans-serif;
-  line-height: 1.6em;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 p {
-  margin-bottom: 1.6em;
+  margin: 0 0 1rem 0;
 }
 
 .navbar {
