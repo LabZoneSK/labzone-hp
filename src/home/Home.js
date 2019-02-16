@@ -47,7 +47,27 @@ const Home = () => {
       </Section>
 
       <Section title='Kontakt'>
-        <p>Hello</p>
+        <div className='columns'>
+        <div className='column is-half'>
+          First column
+        </div>
+        <div className='column is-half'>
+          <p>
+            <span className='title is-5'>LabZone s.r.o.</span><br/>
+            Rovniankova 1658/2<br/>
+            851 02 Bratislava
+          </p>
+          <p>
+            IČO: 50 753 681 <br/>
+            DIČ: 21 2046 1266
+          </p>
+
+          <p>
+            +421 948 272 880 <br/>
+            info&#64;labzone.sk
+          </p>
+        </div>
+        </div>
       </Section>
     </React.Fragment>
   )
