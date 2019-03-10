@@ -7,8 +7,28 @@ const Home = () => {
   return (
     <React.Fragment>
       <Section title='Služby'>
-        <p>ščťžýáíéúôä</p>
+        <ul className='twoColList'>
+          <li>vývoj webových a mobilných aplikácií</li>
+          <li>tvorba webu a e-commerce stránok</li>
+          <li>optimalizácia prvkov SEO</li>
+          <li>dizajn UX</li>
+          <li>fotografia</li>
+          <li className='active'>reklamné a marketingové služby</li>
+          <li>event management</li>
+          <li>školenia a workshopy</li>
+        </ul>
       </Section>
+
+      <div className='columns services-info'>
+        <div className='column is-half is-paddingless'>
+          <img className='services-info-image' src='/media/marketing.jpg' alt='Marketing a reklama' />
+        </div>
+        <div className='column is-half services-description'>
+          <h2 className='title is-3'>Marketing a reklama</h2>
+          <p className='services-descrioption-content'>Prinášame výnimočné strategické a marketingové riešenia, ktoré vám dovolia posunúť váš biznis na úplne iný level.</p>
+          <div><br/>Chevrons</div>
+        </div>
+      </div>
 
       <Section title='Projekty'>
         <p>Hello</p>
