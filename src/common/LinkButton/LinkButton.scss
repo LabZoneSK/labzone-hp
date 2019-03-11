@@ -1,0 +1,20 @@
+@import '../../styles/colors';
+
+.button {
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 1.5em;
+  margin: 1em 0 0 0;
+
+  &.is-lab-primary {
+    background-color: $lab-blue;
+    color: $light-color;
+  
+    &:hover {
+      background-color: $lab-blue-hover;
+      color: $light-color;
+    }
+  }
+}

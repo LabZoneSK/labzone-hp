@@ -72,6 +72,17 @@ p {
   }
 }
 
+.content-spacer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  hr {
+    border-top: 4px solid $lab-blue;
+    margin: 2em 35% 0;
+    width: 30%;
+  }
+}
 .navbar {
   background: none;
 }
@@ -96,4 +107,12 @@ p {
 .m-social-icon {
   width: 35px;
   margin-right: 1.5em;
+}
+
+/** Center content vertically **/
+.is-vertical-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
