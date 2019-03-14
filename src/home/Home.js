@@ -77,6 +77,53 @@ const Home = () => {
         />
       </Section>
 
+      <section className='colored-section'>
+        <div className='columns'>
+          <div className='column is-half'>
+            <h1 className='colored-section-title'>Budujeme komunitu</h1>
+            <p>
+              Okrem rôznych passion projektov sa snažíme tiež budovať solídnu
+              komunitu okolo dizajnu a informačných technlógií.
+            </p>
+          </div>
+
+          <div className='column is-half has-text-centered'>
+            <a href='https://github.com/LabZoneSK'>
+              <div className='colored-section-icon-row'>
+                <img
+                  className='colored-section-icon'
+                  src='media/github-logo-white.svg'
+                  alt=''
+                />
+                <p>Pozrieť repozitáre</p>
+              </div>
+            </a>
+
+            <a href='https://discord.gg/QQhbN23'>
+              <div className='colored-section-icon-row'>
+                <img
+                  className='colored-section-icon'
+                  src='media/discord-white.svg'
+                  alt=''
+                />
+                <p>Discord server</p>
+              </div>
+            </a>
+
+            <a href='https://twitter.com/LabZoneSK'>
+              <div className='colored-section-icon-row'>
+                <img
+                  className='colored-section-icon'
+                  src='media/twitter-logo-white.svg'
+                  alt=''
+                />
+                <p>Sledujte náš feed</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
       <Section title='Team'>
         <div className='columns'>
           <div className='column is-one-third has-text-centered'>
